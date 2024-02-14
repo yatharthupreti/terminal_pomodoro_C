@@ -7,12 +7,12 @@
 
 int main(){
 
-	int hours =0 , minutes = 0, seconds =55, milliseconds=0 ;
+	int hours =0 , minutes = 0, seconds =0, milliseconds=0 ;
 	int timer = 0;
 
 	while(1){
 		
-		printf("\r\t%.2d HOURS ::: %.2d MINUTES ::: %.2d seconds", hours, minutes, seconds);
+		printf("\r\t%.2d HOURS ::: %.2d MINUTES ::: %.2d SECONDS", hours, minutes, seconds);
 
 		fflush(stdout);
 		usleep(1000);
